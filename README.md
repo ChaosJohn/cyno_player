@@ -1,6 +1,4 @@
 <<<<<<< HEAD
-for test
-=======
 cyno_player
 ===========
 
