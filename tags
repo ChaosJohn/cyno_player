@@ -1,0 +1,99 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFSIZE	myfun.h	9;"	d
+InsertionList	mytype.h	/^} InsertionNode, *InsertionList; $/;"	t	typeref:struct:_Insertion
+InsertionNode	mytype.h	/^} InsertionNode, *InsertionList; $/;"	t	typeref:struct:_Insertion
+Parameter	mytype.h	/^}Parameter, *ParasPointer; $/;"	t	typeref:struct:_Parameter
+ParasPointer	mytype.h	/^}Parameter, *ParasPointer; $/;"	t	typeref:struct:_Parameter
+PlayItemList	mytype.h	/^} PlayItemNode, *PlayItemList;$/;"	t	typeref:struct:_PlayItem
+PlayItemNode	mytype.h	/^} PlayItemNode, *PlayItemList;$/;"	t	typeref:struct:_PlayItem
+PlayerData	mytype.h	/^} PlayerData, *PlayerDataPointer;$/;"	t	typeref:struct:_PlayerData
+PlayerDataPointer	mytype.h	/^} PlayerData, *PlayerDataPointer;$/;"	t	typeref:struct:_PlayerData
+RecordList	mytype.h	/^} RecordNode, *RecordList; $/;"	t	typeref:struct:_Record
+RecordNode	mytype.h	/^} RecordNode, *RecordList; $/;"	t	typeref:struct:_Record
+_Insertion	mytype.h	/^typedef struct _Insertion {$/;"	s
+_MYFUN_H	myfun.h	2;"	d
+_MYGST_H	mygst.h	2;"	d
+_MYTYPE_H	mytype.h	2;"	d
+_Parameter	mytype.h	/^typedef struct _Parameter {$/;"	s
+_PlayItem	mytype.h	/^typedef struct _PlayItem {$/;"	s
+_PlayerData	mytype.h	/^typedef struct _PlayerData {$/;"	s
+_Record	mytype.h	/^typedef struct _Record {$/;"	s
+bus	main.c	/^GstBus *bus;$/;"	v
+bus_call	main.c	/^bus_call(GstBus *bus,$/;"	f	file:
+bus_id	mytype.h	/^  char *bus_id; $/;"	m	struct:_Parameter
+changeRecords	myfun.c	/^changeRecords(RecordList records, $/;"	f
+checkPlaylist	myfun.c	/^checkPlaylist(PlayItemList playlist, $/;"	f
+concatenateName	myfun.c	/^concatenateName(char *formerHalf, $/;"	f
+createInsertionList	myfun.c	/^createInsertionList(InsertionList insertions, $/;"	f
+createPlaylist	myfun.c	/^createPlaylist(PlayItemList playlist, $/;"	f
+createRecords	myfun.c	/^createRecords(RecordList records, $/;"	f
+data	main.c	/^static PlayerDataPointer data;$/;"	v	file:
+duration	mytype.h	/^  gint64 duration;        \/\/ How long does this media last(in nanoseconds)? $/;"	m	struct:_PlayerData
+fixedMedia	mytype.h	/^  char *fixedMedia; $/;"	m	struct:_Parameter
+generateRecordsFileName	myfun.c	/^generateRecordsFileName(char *dir, $/;"	f
+getDate	myfun.c	/^getDate(void) {$/;"	f
+getFilePath	myfun.c	/^getFilePath(char *rawPath) {$/;"	f
+handle_kill	main.c	/^handle_kill(int sigNo)$/;"	f
+handle_message	main.c	/^static void handle_message (PlayerDataPointer data, GstMessage *msg)$/;"	f	file:
+handle_save	main.c	/^handle_save(void *ptr)$/;"	f
+handle_time	mygst.c	/^handle_time(PlayerDataPointer data) {$/;"	f
+initGstElement	mygst.c	/^initGstElement(PlayerDataPointer data, ParasPointer parameter) {$/;"	f
+initInsertionList	myfun.c	/^initInsertionList(InsertionList *insertions) {$/;"	f
+initParameter	myfun.c	/^initParameter(ParasPointer pp, $/;"	f
+initPlaylist	myfun.c	/^initPlaylist(PlayItemList *playlist) {$/;"	f
+initRecords	myfun.c	/^initRecords(RecordList *records) {$/;"	f
+insertions	main.c	/^InsertionList insertions = NULL;$/;"	v
+insertionsSrc	mytype.h	/^  char *insertionsSrc;$/;"	m	struct:_Parameter
+isFileExists	myfun.c	/^isFileExists(char *fileName) {$/;"	f
+isFirst	main.c	/^int isFirst = 1;  \/\/ 是否是程序运行后的第一次播放$/;"	v
+isInPlaylist	myfun.c	/^isInPlaylist(PlayItemList playlist, $/;"	f
+isInRecords	myfun.c	/^isInRecords(RecordList records, $/;"	f
+lastPlaySrc	mytype.h	/^  char *lastPlaySrc; $/;"	m	struct:_Parameter
+lastplayMediaName	main.c	/^char *lastplayMediaName = NULL;$/;"	v
+loadLastPlay	myfun.c	/^loadLastPlay(char *lastplaySrc) {$/;"	f
+loop	main.c	/^static GMainLoop *loop;$/;"	v	file:
+main	main.c	/^main(int argc,$/;"	f
+mediaDir	mytype.h	/^  char *mediaDir; $/;"	m	struct:_Parameter
+mediaName	mytype.h	/^  char *mediaName;       \/\/ The filename of the media item. $/;"	m	struct:_Insertion
+mediaName	mytype.h	/^  char *mediaName; $/;"	m	struct:_PlayItem
+mediaName	mytype.h	/^  char *mediaName; \/\/ The filename of the media item. $/;"	m	struct:_Record
+mediaSrc	main.c	/^char *mediaSrc = NULL;$/;"	v
+mergeRecords	myfun.c	/^mergeRecords(RecordList records, $/;"	f
+msg	main.c	/^GstMessage *msg;$/;"	v
+newLine	myfun.c	/^newLine(void) {$/;"	f
+next	mytype.h	/^  struct _Insertion *next;  \/\/ The pointer point to the next node in the linked list.$/;"	m	struct:_Insertion	typeref:struct:_Insertion::_Insertion
+next	mytype.h	/^  struct _PlayItem *next; $/;"	m	struct:_PlayItem	typeref:struct:_PlayItem::_PlayItem
+next	mytype.h	/^  struct _Record *next; $/;"	m	struct:_Record	typeref:struct:_Record::_Record
+parameter	main.c	/^static ParasPointer parameter;$/;"	v	file:
+pipeline	mytype.h	/^  GstElement *pipeline; $/;"	m	struct:_PlayerData
+playbin2	mytype.h	/^  GstElement *playbin2; $/;"	m	struct:_PlayerData
+playbin2Bus	main.c	/^GstBus *playbin2Bus;$/;"	v
+playing	mytype.h	/^  gboolean playing;       \/\/ Are we in PLAYING state? $/;"	m	struct:_PlayerData
+playlist	main.c	/^PlayItemList playlist = NULL;$/;"	v
+playlistSrc	mytype.h	/^  char *playlistSrc; $/;"	m	struct:_Parameter
+posi_h	mytype.h	/^  int posi_x, posi_y, posi_w, posi_h, rotate; $/;"	m	struct:_Parameter
+posi_w	mytype.h	/^  int posi_x, posi_y, posi_w, posi_h, rotate; $/;"	m	struct:_Parameter
+posi_x	mytype.h	/^  int posi_x, posi_y, posi_w, posi_h, rotate; $/;"	m	struct:_Parameter
+posi_y	mytype.h	/^  int posi_x, posi_y, posi_w, posi_h, rotate; $/;"	m	struct:_Parameter
+printInsertionList	myfun.c	/^printInsertionList(InsertionList insertions) {$/;"	f
+printPlaylist	myfun.c	/^void printPlaylist(PlayItemList playlist) {$/;"	f
+printRecords	myfun.c	/^printRecords(RecordList records) {$/;"	f
+records	main.c	/^RecordList records = NULL;$/;"	v
+ret	main.c	/^GstStateChangeReturn ret;$/;"	v
+rotate	mytype.h	/^  int posi_x, posi_y, posi_w, posi_h, rotate; $/;"	m	struct:_Parameter
+runPlaybin2	mygst.c	/^runPlaybin2(PlayerDataPointer data, char *mediaSrc) {$/;"	f
+saveLastPlay	myfun.c	/^saveLastPlay(char *lastplaySrc, char *mediaName) {$/;"	f
+saveRecords	myfun.c	/^saveRecords(RecordList records, $/;"	f
+seek_done	mytype.h	/^  gboolean seek_done;     \/\/ Have we performed the seek already? $/;"	m	struct:_PlayerData
+seek_enabled	mytype.h	/^  gboolean seek_enabled;  \/\/ Is seeking enabled? $/;"	m	struct:_PlayerData
+shouldReplay	main.c	/^int shouldReplay = 0;  \/\/ 是否需要重播$/;"	v
+sink	mytype.h	/^  GstElement *sink;$/;"	m	struct:_PlayerData
+terminate	mytype.h	/^  gboolean terminate;     \/\/ Should we terminate the execution? $/;"	m	struct:_PlayerData
+thread	main.c	/^pthread_t thread;$/;"	v
+times	mytype.h	/^  int times;      \/\/ The times that the media item was played. $/;"	m	struct:_Record
+workingDir	mytype.h	/^  char *workingDir; $/;"	m	struct:_Parameter
